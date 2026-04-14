@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Simulador Epigenético", layout="wide")
 
-st.title("🧬 Simulador de Dinámica Epigenética")
+st.title(" Simulador de Dinámica Epigenética")
 st.markdown("Explora la relación entre el metabolismo, la maquinaria enzimática y los estados biológicos reales de la cromatina.")
 
 # --- BARRA LATERAL: COFACTORES ---
