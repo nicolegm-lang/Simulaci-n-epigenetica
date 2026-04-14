@@ -80,7 +80,7 @@ elif (tet_activa or hat_activa or h3k4_check) and not (dnmt_activa or hdac_activ
 
 # --- RENDERIZADO DE RESULTADOS ---
 with col2:
-    st.header("📊 Diagnóstico del Sistema")
+    st.header(" Diagnóstico del Sistema")
     
     # Alertas si faltan cofactores
     if dnmt_check and not dnmt_activa:
