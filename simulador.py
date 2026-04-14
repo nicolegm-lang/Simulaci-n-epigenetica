@@ -6,7 +6,7 @@ st.title("🧬 Simulador de Dinámica Epigenética")
 st.markdown("Explora la relación entre el metabolismo, la maquinaria enzimática y los estados biológicos reales de la cromatina.")
 
 # --- BARRA LATERAL: COFACTORES ---
-st.sidebar.header("🥗 Cofactores Metabólicos")
+st.sidebar.header(" Cofactores Metabólicos")
 folato = st.sidebar.slider("Nivel de SAM / Folato (para DNMT)", 0, 100, 80)
 acetil_coa = st.sidebar.slider("Nivel de Acetil-CoA (para HAT)", 0, 100, 80)
 alfa_kg = st.sidebar.slider("Nivel de α-KG (para TET)", 0, 100, 80)
@@ -17,7 +17,7 @@ st.sidebar.info("Si el cofactor baja del 20%, la enzima correspondiente se inact
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.header("⚙️ Maquinaria Molecular")
+    st.header(" Maquinaria Molecular")
     
     st.subheader("ADN")
     dnmt_check = st.checkbox("Activar DNMT (Metilación)")
